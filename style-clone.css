@@ -1,0 +1,171 @@
+/* Begin CSS here */
+* { 
+  outline: 0px dotted black;
+}
+
+html, body {
+	height: 100%;
+	min-width: 980px;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	margin: 0;
+}
+
+#content-wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0px 0px -45px 0px;
+}
+
+#header {
+	position: relative;
+	height: 60px;
+}
+
+#header .right {
+	top: 20px;
+	height: 30px;
+}
+
+.right {
+	display: inline-block;
+	position: relative;
+	float: right;
+	right: 30px;
+}
+
+li {
+	display: inline;
+	padding: 5px 10px;
+}
+
+a:link, a:visited {
+	color: #404040;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #222;
+}
+
+#grid {
+	width: 20px;
+	vertical-align: text-bottom;
+}
+
+.buttonshape {
+	height: 60px;
+	border: 1px solid #4285f4;
+	border-radius: 2px;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#4387fd), to(#4683ea));
+	background-image: -webkit-linear-gradient(#4387fd, #4683ea);
+	background-image: -moz-linear-gradient(#4387fd, #4683ea);
+	background-image: -o-linear-gradient(#4387fd, #4683ea);
+	background-image: linear-gradient(#4387fd, #4683ea);
+}
+
+.buttonshape a:link, .buttonshape a:visited, .buttonshape a:hover {
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+form {
+	text-align: center;
+}
+
+#logo-container {
+	position: relative;
+	line-height: 18em;
+}
+
+#logo {
+	width: 269px;
+	vertical-align: bottom;
+}
+
+#searchbar-container {
+	position: relative;
+	height: 32px;
+	margin-top: 2em;
+}
+
+#searchbar {
+	height: 30px;
+	width: 600px;
+	background: #ffffff;
+	background: url('images/microphone.png') no-repeat 100% 50%;
+	background-size: 25px;
+	border: 1px solid #c6c9cc;
+	padding-left: 9px;
+}
+
+#searchbar:focus, *:focus {
+	border: 1px solid #1D6DE7;
+}
+
+#button-container div {
+	position: relative;
+	display: inline-block;
+	margin-bottom: 50px;
+}
+
+.btn {
+	height: 29px;
+	padding: 0 8px;
+	margin: 16px 8px;
+	color: #404040;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	border: 1px solid #dcdcdc;
+	border-color: rgba(0,0,0,0.1);
+	border-bottom-color: #c6c9cc;
+	border-radius: 2px;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f5f5f5), to(#f1f1f1));
+	background-image: -webkit-linear-gradient(#f5f5f5, #f1f1f1);
+	background-image: -moz-linear-gradient(#f5f5f5, #f1f1f1);
+	background-image: -o-linear-gradient(#f5f5f5, #f1f1f1);
+	background-image: linear-gradient(#f5f5f5, #f1f1f1);
+}
+
+.btn:hover {
+	color: #222222;
+	border-color: #c6c6c6;
+	box-shadow: 0 1px 0 rgba(0,0,0,.15);
+	box-shadow: 0 1px 0 rgba(0,0,0,.15);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f8f8f8), to(#f1f1f1));
+	background-image: -webkit-linear-gradient(#f8f8f8, #f1f1f1);
+	background-image: -moz-linear-gradient(#f8f8f8, #f1f1f1);
+	background-image: -o-linear-gradient(#f8f8f8, #f1f1f1);
+	background-image: linear-gradient(#f8f8f8, #f1f1f1);
+}
+
+.btn:focus {
+	border-color: #4d90fe;
+}
+
+
+#footer-wrapper {
+	height: 15px;
+	background-color: #F2F2F2;
+	padding: 15px 0;
+}
+
+#footer-wrapper a:hover, a:visited {
+	color: #404040;
+}
+
+
+.highlight {
+	color: #B74436;
+}
+
+.left {
+	position: relative;
+	float: left;
+	display: inline-block;
+	left: 8px;
+}
